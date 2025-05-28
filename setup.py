@@ -11,7 +11,7 @@ setup(
     description="特許PDFからマルチモーダル生成AIを使用して構造化JSONを抽出するライブラリ",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/yourusername/patent-extractor",
+    url="https://github.com/pyxist2020/patent-extractor",
     packages=find_packages(),
     classifiers=[
         "Development Status :: 4 - Beta",
