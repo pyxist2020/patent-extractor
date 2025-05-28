@@ -6,8 +6,8 @@ with open("README.md", "r", encoding="utf-8") as fh:
 setup(
     name="patent-extractor",
     version="0.1.0",
-    author="Your Name",
-    author_email="your.email@example.com",
+    author="pyxist2020",
+    author_email="info@pyxist.co.jp",
     description="特許PDFからマルチモーダル生成AIを使用して構造化JSONを抽出するライブラリ",
     long_description=long_description,
     long_description_content_type="text/markdown",
