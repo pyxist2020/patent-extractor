@@ -12,6 +12,7 @@ setup(
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/pyxist2020/patent-extractor",
+    download_url="https://github.com/pyxist2020/patent-extractor",
     packages=find_packages(),
     classifiers=[
         "Development Status :: 4 - Beta",
@@ -26,6 +27,7 @@ setup(
         "Topic :: Scientific/Engineering :: Artificial Intelligence",
         "Topic :: Text Processing :: Markup",
     ],
+    licence="MIT",
     python_requires=">=3.8",
     install_requires=[
         "google-generativeai>=0.3.0",
