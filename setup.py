@@ -5,7 +5,7 @@ with open("readme.md", "r", encoding="utf-8") as fh:
 
 setup(
     name="patent-extractor",
-    version="0.1.0",
+    version="0.2.0",
     author="pyxist2020",
     author_email="info@pyxist.co.jp",
     description="特許PDFからマルチモーダル生成AIを使用して構造化JSONを抽出するライブラリ",
