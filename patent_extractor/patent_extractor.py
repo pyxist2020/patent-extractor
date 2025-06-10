@@ -208,10 +208,10 @@ class PatentExtractor:
                             """
                         },
                         {
-                            "type": "image_url",
-                            "image_url": {
-                                "url": f"data:application/pdf;base64,{pdf_data}",
-                                "detail": "high"
+                            "type": "file",
+                            "file": {
+                                "filename": f"{pdf_path}",
+                                "file_data": f"data:application/pdf;base64,{pdf_data}"
                             }
                         }
                     ]
